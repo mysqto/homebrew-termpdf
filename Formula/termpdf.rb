@@ -1,4 +1,4 @@
-class TermPDF < Formula
+class Termpdf < Formula
   desc "Barebones graphical pdf/djvu/cbr/image viewer that works inside iTerm2 2.9+ and Kitty"
   homepage "https://github.com/dsanson/termpdf"
   url "https://github.com/dsanson/termpdf"

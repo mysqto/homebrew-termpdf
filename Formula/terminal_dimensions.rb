@@ -1,4 +1,4 @@
-class TerminalDimensions < Formula
+class Terminaldimensions < Formula
   desc "CLI tool to report terminal dimensions in both cells and pixels."
   homepage "https://github.com/dsanson/terminal_dimensions"
   url "https://github.com/dsanson/terminal_dimensions"
