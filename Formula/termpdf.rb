@@ -3,7 +3,7 @@ class Termpdf < Formula
   homepage "https://github.com/dsanson/termpdf"
   url "https://github.com/dsanson/termpdf.git"
   head "https://github.com/dsanson/termpdf.git", :branch => "master"
-  version "0.0.0"
+  version "1.0.0"
   
    depends_on "poppler"
    depends_on "djvulibre"
@@ -19,4 +19,7 @@ class Termpdf < Formula
     bin.install "termpdf"
     bin.install "tpdfc"
   end
+  test do
+    system "#{bin}/termpdf", "-h"
+  end 
 end
