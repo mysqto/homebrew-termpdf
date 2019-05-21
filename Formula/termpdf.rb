@@ -17,6 +17,6 @@ class Termpdf < Formula
 
   def install
     bin.install "termpdf"
-    bin.install "temdfc"
+    bin.install "termdfc"
   end
 end
