@@ -1,7 +1,7 @@
 class TerminalDimensions < Formula
   desc "CLI tool to report terminal dimensions in both cells and pixels."
   homepage "https://github.com/dsanson/terminal_dimensions"
-  url "https://github.com/dsanson/terminal_dimensions"
+  url "https://github.com/dsanson/terminal_dimensions.git"
   head "https://github.com/dsanson/terminal_dimensions.git", :branch => "master"
   version "0.0.0"
    
